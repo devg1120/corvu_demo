@@ -21,7 +21,9 @@
 }
 
 [data-corvu-resizable-handle] {
-  flex-basis: 0.75rem;
+  /* flex-basis: 0.75rem; */
+  /* flex-basis: 0.10rem; */
+   flex-basis: 1px; 
 }
 
 [data-corvu-resizable-handle][data-orientation="horizontal"] {
@@ -37,7 +39,7 @@
 .inner_handle {
   width: 100%;
   height: 100%;
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem; */
   transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
