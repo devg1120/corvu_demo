@@ -1,4 +1,3 @@
-/*
 .wrapper {
   width: 100%;
   height: 100%;
@@ -10,7 +9,6 @@
     padding: 5rem;
   }
 }
-*/
 
 [data-corvu-resizable-root] {
   width: 100%;
@@ -18,37 +16,35 @@
 }
 
 .panel {
-  background-color: green;
+  border-radius: 0.5rem;
+  background-color: hsl(249, 87%, 94%);
 }
 
 [data-corvu-resizable-handle] {
   /* flex-basis: 0.75rem; */
-   flex-basis: 0.10rem; 
-  /* flex-basis: 1px; */
-  background-color: red;
+  /* flex-basis: 0.10rem; */
+   flex-basis: 1px; 
 }
 
 [data-corvu-resizable-handle][data-orientation="horizontal"] {
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 [data-corvu-resizable-handle][data-orientation="vertical"] {
-  padding-top: 1px;
-  padding-bottom: 1px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-
-/*
 .inner_handle {
   width: 100%;
   height: 100%;
-  border-radius: 0.25rem; 
+  /* border-radius: 0.25rem; */
   transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-/*
+
 [data-corvu-resizable-handle][data-active] .inner_handle {
   border-color: hsl(253, 80%, 82%);
 }
@@ -56,4 +52,3 @@
 [data-corvu-resizable-handle][data-dragging] .inner_handle {
   background-color: hsl(249, 87%, 94%);
 }
-*/
