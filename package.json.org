@@ -10,8 +10,12 @@
   },
   "dependencies": {
     "@corvu/resizable": "^0.2.5",
+    "@corvu/tailwind": "^0.1.7",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/vite": "^4.2.4",
     "corvu": "^0.7.2",
-    "solid-js": "^1.9.12"
+    "solid-js": "^1.9.12",
+    "tailwindcss": "^4.2.4"
   },
   "devDependencies": {
     "@types/node": "^24.12.2",
