@@ -1,6 +1,6 @@
 import Resizable from '@corvu/resizable'
 import type { VoidComponent } from 'solid-js'
-import "./Resize.css"
+//import "./Resize.css"
 
 const Resize: VoidComponent = () => {
   return (

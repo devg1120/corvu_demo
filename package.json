@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@corvu/resizable": "^0.2.5",
+    "@corvu/tailwind": "^0.1.7",
     "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/vite": "^4.2.4",
     "corvu": "^0.7.2",
@@ -19,7 +21,6 @@
     "@types/node": "^24.12.2",
     "typescript": "~6.0.2",
     "vite": "^8.0.10",
-    "vite-plugin-solid": "^2.11.12",
-    "vite-tsconfig-paths": "^6.1.1"
+    "vite-plugin-solid": "^2.11.12"
   }
 }

@@ -14,7 +14,7 @@ import {
   CalendarBlank,
   CaretLeft,
   CaretRight,
-} from './corvu/primitives/calendar/icons'
+} from './primitives/calendar/icons'
 
 import { createUniqueId, Index, Show } from 'solid-js'
 import Calendar from '@corvu/calendar'
